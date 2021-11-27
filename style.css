@@ -57,23 +57,24 @@ li a:hover {
 }
 
 .carrousel {
-  margin: 30px;
-  padding: 10px;
-  padding-left: 90px;
+  text-align: center;
 }
 
 #banner {
+  padding-top: 5%;
   height: 400px;
   width: 1100px;
+  padding-bottom: 5%;
 }
 
 div.post {
   width: 50%;
-  margin: 20px;
+  margin-bottom: 20px;
   background-color: #42abd5;
   color: #fff;
   padding: 15px;
   float: left;
+  display: block;
 }
 
 div.post img.izquierda {
@@ -99,20 +100,65 @@ aside {
 }
 
 .post-X {
-  width: 40%;
-  margin: auto;
-  background-color: #42abd5;
+  background-color: #ffffff;
   color: #fff;
   padding: 15px;
-  float: right;
+  display: block;
+  text-align: center;
+  float: none;
   margin-top: 0%;
+  margin-left: 30px;
 }
 
 .post-X2 {
   width: 40%;
-  margin-top: 20px;
   background-color: #42abd5;
   color: #fff;
   padding: 15px;
+
   float: right;
+}
+
+.container {
+  margin: 2%;
+}
+
+#Btn-Post {
+  background-color: #001aff;
+}
+
+.btn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 15px 25px;
+  text-decoration: none;
+  margin-top: 5%;
+}
+
+.btn2 {
+  background-color: #7800bd;
+  color: rgb(255, 255, 255);
+  padding: 15px 25px;
+  text-decoration: none;
+  margin-top: 5%;
+}
+
+.btn:hover {
+  background-color: #aab5d4;
+}
+
+.btns {
+  margin: 5%;
+}
+
+#titulo {
+  color: black;
+}
+
+.video {
+  margin-bottom: 5%;
+}
+
+h1 {
+  margin-bottom: 3%;
 }
